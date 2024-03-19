@@ -1,0 +1,273 @@
+import React from "react";
+import { SecondaryButton } from "./SecondaryButton";
+
+export const Page = (): JSX.Element => {
+  return (
+    <div className="bg-[#330049] flex flex-row justify-center w-full">
+      <div className="bg-[#330049] overflow-hidden w-[1920px] h-[11632px]">
+        <div className="relative w-[1921px] h-[11632px]">
+          <img className="absolute w-[1920px] h-[11632px] top-0 left-0" alt="Blobs" src="blobs.png" />
+          <div className="absolute w-[1543px] h-[606px] top-[285px] left-[259px]">
+            <div className="flex flex-wrap w-[330px] h-[99px] items-center justify-center gap-[10px_10px] px-0 py-[20px] absolute top-[392px] left-0 bg-[#d9d9d9] rounded-[50px] overflow-hidden">
+              <div className="relative w-[270px] h-[68px] mt-[-5.50px] mb-[-3.50px] [font-family:'Italiana-Regular',Helvetica] font-normal text-black text-[32px] text-center tracking-[0] leading-[normal]">
+                Browse our courses
+              </div>
+            </div>
+            <div className="absolute w-[655px] h-[197px] top-[18px] left-0">
+              <div className="absolute h-[113px] top-0 left-0 [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[96px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                Mayoor Mastery
+              </div>
+              <div className="absolute h-[94px] top-[103px] left-0 [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[80px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                We are a team.
+              </div>
+            </div>
+            <p className="absolute w-[546px] h-[119px] top-[244px] left-0 [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[32px] tracking-[0] leading-[normal]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </p>
+            <div className="absolute w-[258px] h-[72px] top-[406px] left-[368px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[32px] text-center tracking-[0] leading-[normal]">
+              Contact Us
+            </div>
+            <img
+              className="absolute w-[564px] h-[606px] top-0 left-[971px] object-cover"
+              alt="Vector"
+              src="vector.png"
+            />
+          </div>
+          <div className="absolute w-[1545px] h-[114px] top-[26px] left-[248px]">
+            <div className="absolute h-[114px] top-0 left-0 [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[48px] text-center tracking-[0] leading-[normal]">
+              Mayoor
+              <br /> Mastery
+            </div>
+            <div className="flex w-[241px] h-[70px] items-center justify-center gap-[10px] px-0 py-[20px] absolute top-[32px] left-[1302px] bg-[#d9d9d9] rounded-[50px] overflow-hidden">
+              <div className="relative w-[212px] mt-[-5.00px] mb-[-3.00px] [font-family:'Italiana-Regular',Helvetica] font-normal text-black text-[32px] text-center tracking-[0] leading-[normal]">
+                Work with me
+              </div>
+            </div>
+          </div>
+          <div className="absolute w-[1404px] h-[2899px] top-[1230px] left-[259px]">
+            <div className="flex w-[1402px] h-[2592px] items-start justify-center gap-[150px_131px] absolute top-[307px] left-0 overflow-y-scroll">
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Google Classroom
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1.png" />
+                <p className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Classroom: Your online learning hub!
+                </p>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Google Sheets
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="image.png" />
+                <p className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Forget spreadsheets that fight back!
+                </p>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Google Forms
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1-2.png" />
+                <p className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Craft surveys &amp; quizzes in a flash!
+                </p>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Google Docs
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1-3.png" />
+                <div className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Write together, anywhere, anytime!
+                </div>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Google Slides
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1-4.png" />
+                <p className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Present like a pro with your crew!
+                </p>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Digital Citizenship
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1-5.png" />
+                <p className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Surf smart, play fair! ✨
+                </p>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Creative Commons
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1-6.png" />
+                <p className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Share &amp; remix with joy! ✨
+                </p>
+                <SecondaryButton />
+              </div>
+              <div className="flex flex-col w-[626px] h-[549px] items-center gap-[37px] px-[99px] py-[48px] relative bg-[#c0b8b81a] rounded-[50px]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[40px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                  Copyright
+                </div>
+                <img className="relative w-[323px] h-[207px] object-cover" alt="Classroom" src="classroom-1-7.png" />
+                <div className="relative w-fit [font-family:'Inter-Light',Helvetica] font-light text-white text-[24px] text-center tracking-[0] leading-[normal]">
+                  Respect the craft! ✍️
+                </div>
+                <SecondaryButton />
+              </div>
+            </div>
+            <div className="absolute w-[672px] h-[150px] top-0 left-[365px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[80px] text-center tracking-[0] leading-[normal]">
+              Courses Available
+            </div>
+          </div>
+          <div className="absolute w-[1701px] h-[4099px] top-[4592px] left-[126px]">
+            <div className="absolute h-[94px] top-0 left-[683px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[80px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+              About US
+            </div>
+            <p className="h-[38px] top-[163px] left-[226px] text-[32px] whitespace-nowrap absolute [font-family:'Italiana-Regular',Helvetica] font-normal text-white tracking-[0] leading-[normal]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </p>
+            <img
+              className="h-[555px] top-[496px] absolute w-[570px] left-[3px] object-cover"
+              alt="Image"
+              src="image-1.png"
+            />
+            <p className="absolute w-[1015px] h-[75px] top-[496px] left-[650px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[64px] tracking-[0] leading-[normal]">
+              Amogh Varote : Frontend Developer
+            </p>
+            <div className="w-[1662px] top-[1137px] left-[3px] bg-[#d9d9d980] rounded-[100px] absolute h-[2px]" />
+            <div className="w-[1662px] top-[2091px] left-0 bg-[#d9d9d980] rounded-[100px] absolute h-[2px]" />
+            <img
+              className="h-[581px] top-[1325px] absolute w-[570px] left-[3px] object-cover"
+              alt="Image"
+              src="image-4.png"
+            />
+            <p className="absolute w-[1035px] h-[98px] top-[1325px] left-[650px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[64px] tracking-[0] leading-[normal]">
+              Ishaan Pandey : Backend Developer
+            </p>
+            <img
+              className="h-[549px] top-[2279px] absolute w-[570px] left-[3px] object-cover"
+              alt="Image"
+              src="image-5.png"
+            />
+            <p className="absolute w-[992px] h-[252px] top-[1456px] left-[650px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[36px] tracking-[0] leading-[normal]">
+              I&#39;m Ishaan, a wannabe programmer with a passion for backend development and a budding interest in
+              Artificial Intelligence. While This project sparked my fascination with backend development, the hidden
+              engine that powers websites and applications.Beyond the basics, I&#39;m actively exploring the exciting
+              world of AI.
+            </p>
+            <p className="absolute w-[992px] h-[210px] top-[615px] left-[650px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[36px] tracking-[0] leading-[normal]">
+              Code crackles in Amogh&#39;s fingertips. He sees more than lines on a screen - he sees the future. Not of
+              robots taking over, but of AI amplifying humanity. His fingers fly, sculpting the code that will bridge
+              the gap. This is just the beginning, and Amogh, the AI sculptor, is ready to rewrite the world.
+            </p>
+            <p className="absolute w-[820px] h-[115px] top-[2279px] left-[650px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[64px] tracking-[0] leading-[normal]">
+              Aditya Rao : UI/UX Developer
+            </p>
+            <p className="w-[905px] h-[336px] top-[2446px] left-[650px] text-[36px] absolute [font-family:'Italiana-Regular',Helvetica] font-normal text-white tracking-[0] leading-[normal]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+            <div className="absolute w-[1563px] h-[857px] top-[3242px] left-[55px]">
+              <div className="absolute h-[94px] top-0 left-[600px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[80px] tracking-[0] leading-[normal] whitespace-nowrap">
+                Our Vision
+              </div>
+              <p className="w-[1559px] h-[675px] top-[182px] left-0 text-[64px] text-center absolute [font-family:'Italiana-Regular',Helvetica] font-normal text-white tracking-[0] leading-[normal]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+          <div className="absolute w-[1672px] h-[1566px] top-[9402px] left-[129px]">
+            <div className="absolute h-[94px] top-0 left-[642px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[80px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+              Contact US
+            </div>
+            <p className="absolute h-[226px] top-[523px] left-0 [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[96px] text-center tracking-[0] leading-[normal]">
+              Get in Touch <br />
+              with us!
+            </p>
+            <div className="absolute w-[1029px] h-[1057px] top-[516px] left-[640px] rounded-[50px] border-[7px] border-solid border-[#ffffff80]">
+              <div className="absolute h-[57px] top-[94px] left-[129px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[48px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                Name :
+              </div>
+              <div className="absolute h-[57px] top-[308px] left-[129px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[48px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                Email :
+              </div>
+              <div className="absolute h-[57px] top-[485px] left-[129px] [font-family:'Italiana-Regular',Helvetica] font-normal text-white text-[48px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                Message :
+              </div>
+              <img
+                className="w-[776px] top-[182px] left-[129px] absolute h-[2px]"
+                alt="Rectangle"
+                src="rectangle-4.svg"
+              />
+              <div className="w-[776px] top-[401px] left-[129px] bg-[#d9d9d9] rounded-[20px] absolute h-[2px]" />
+              <div className="w-[776px] top-[727px] left-[129px] bg-[#d9d9d9] rounded-[20px] absolute h-[2px]" />
+              <div className="flex w-[241px] h-[70px] items-center justify-center gap-[10px] px-0 py-[20px] absolute top-[912px] left-[396px] bg-[#d9d9d9] rounded-[50px] overflow-hidden">
+                <div className="relative w-[212px] mt-[-5.00px] mb-[-3.00px] [font-family:'Italiana-Regular',Helvetica] font-normal text-black text-[32px] text-center tracking-[0] leading-[normal]">
+                  Work with me
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer className="absolute w-[1920px] h-[325px] top-[11307px] left-px bg-[#d3d3d373]">
+            <div className="absolute w-[465px] h-[234px] top-[78px] left-[1391px]">
+              <p className="absolute w-[461px] h-[119px] top-[115px] left-0 [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal]">
+                Our goal is to help everyone in our community better themselves by providing them the appropriate
+                resources to learn necessary and basic skills.
+              </p>
+              <div className="absolute w-[194px] h-[25px] top-[90px] left-[145px] [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal]">
+                For the Community
+              </div>
+              <img className="absolute w-[75px] h-[75px] top-0 left-[193px]" alt="Group" src="group.png" />
+            </div>
+            <div className="absolute w-[442px] h-[190px] top-[78px] left-[696px]">
+              <p className="absolute w-[438px] h-[47px] top-[143px] left-0 [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal]">
+                On completing a course get a certification to express your achievement
+              </p>
+              <div className="absolute w-[127px] h-[24px] top-[90px] left-[155px] [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal]">
+                Certifications
+              </div>
+              <img
+                className="absolute w-[75px] h-[75px] top-0 left-[182px] object-cover"
+                alt="Certificate"
+                src="certificate.png"
+              />
+            </div>
+            <div className="absolute w-[424px] h-[190px] top-[78px] left-[103px]">
+              <p className="absolute w-[420px] h-[47px] top-[143px] left-0 [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal]">
+                All courses are extremely beginner friendly and easy to understand.
+              </p>
+              <div className="absolute w-[206px] h-[16px] top-[90px] left-[107px] [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[20px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+                Incredibly Accessible
+              </div>
+              <img
+                className="absolute w-[75px] h-[75px] top-0 left-[173px] object-cover"
+                alt="Accessibility"
+                src="accessibility-2.png"
+              />
+            </div>
+          </footer>
+          <div className="absolute w-[100px] h-[100px] top-[5429px] left-[354px]" />
+        </div>
+      </div>
+    </div>
+  );
+};
